@@ -21,10 +21,16 @@ Episodes of WiP air live on www.twitch.tv/tsogtv and are archived at www.youtube
 As the name of the series implies, this redesign is currently a work in progress. This section of the README will be kept up-to-date with the current state of the project as the season progresses.
 
 ### Design Inputs
-* 
+* Should function as closely in general operation to an actual CT scanner as possible.
+* At least 1 motorized D.O.F.
+* Must be able to independently capture a full 2D slice of an opaque object.
+* Must be able to transmit raw data to a computer.
+* Must be able to adjust height / z-axis of scan on object (manually or otherwise).
 
-### Prior Design Fixes
-*
+### Stretch Goals
+* Able to image semi-opaque materials.
+* Scanner rotates around subject rather than rotating the subject.
+* Motorized z-axis.
 
 ### How to Collaborate
 For any active TSoG.tv students who would like to contribute to this project, please create a GitHub account and contact Dr. Foland via Discord. He will need your GitHub username to grant you permission to modify this repository.
