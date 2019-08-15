@@ -209,37 +209,18 @@ Wire Wire Line
 	7700 6000 8000 6000
 Connection ~ 7700 6000
 Connection ~ 8000 6000
-$Sheet
-S 800  2850 2050 3300
-U 5D5E493A
-F0 "PT" 50
-F1 "Phototransistors.sch" 50
-F2 "PT_01" O R 2850 3100 50 
-F3 "PT_02" O R 2850 3300 50 
-F4 "PT_03" O R 2850 3500 50 
-F5 "PT_04" O R 2850 3700 50 
-F6 "PT_17" O R 2850 5200 50 
-$EndSheet
 Wire Wire Line
 	5700 3100 5700 3250
 Wire Wire Line
 	5700 3250 7200 3250
 Wire Wire Line
-	2850 3100 5700 3100
-Wire Wire Line
-	2850 3300 5500 3300
-Wire Wire Line
 	5500 3300 5500 3350
 Wire Wire Line
 	5500 3350 7200 3350
 Wire Wire Line
-	2850 3500 5500 3500
-Wire Wire Line
 	5500 3500 5500 3450
 Wire Wire Line
 	5500 3450 7200 3450
-Wire Wire Line
-	2850 3700 5700 3700
 Wire Wire Line
 	5700 3700 5700 3550
 Wire Wire Line
@@ -249,7 +230,26 @@ Wire Wire Line
 Text Label 10950 4150 2    50   ~ 0
 A0
 Wire Wire Line
-	2850 5200 3350 5200
-Text Label 3350 5200 2    50   ~ 0
+	1900 6100 2400 6100
+Text Label 2400 6100 2    50   ~ 0
 A0
+$Sheet
+S 800  2850 1100 4300
+U 5D5E493A
+F0 "PT" 50
+F1 "Phototransistors.sch" 50
+F2 "PT_01" O R 1900 3100 50 
+F3 "PT_02" O R 1900 3300 50 
+F4 "PT_03" O R 1900 3500 50 
+F5 "PT_04" O R 1900 3700 50 
+F6 "PT_17" O R 1900 6100 50 
+$EndSheet
+Wire Wire Line
+	1900 3100 5700 3100
+Wire Wire Line
+	1900 3300 5500 3300
+Wire Wire Line
+	1900 3500 5500 3500
+Wire Wire Line
+	1900 3700 5700 3700
 $EndSCHEMATC
