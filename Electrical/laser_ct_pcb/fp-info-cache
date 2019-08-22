@@ -1,4 +1,4 @@
-15995527535288231
+16000231104612544
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44968,6 +44968,20 @@ diode
 4
 2
 hodgkin
+LED_0805_LightPipe_Long
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+4
+2
+hodgkin
+light_pipe
+
+
+0
+1
+1
+hodgkin
 LM1117
 module CMS SOT223 4 pins
 CMS SOT
@@ -44975,12 +44989,12 @@ CMS SOT
 4
 3
 hodgkin
-MF-MSMF
-
-
+Molex_67503-1020
+http://www.adam-tech.com/upload/MUSB-B5-S-VT-TSMT-1.pdf
+USB Mini-B
 0
-2
-2
+9
+6
 hodgkin
 PTS636-G-2.5-NoGND
 
@@ -44989,12 +45003,12 @@ PTS636-G-2.5-NoGND
 2
 2
 hodgkin
-resetbutton
-http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
-SMD SMT button
+QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm
+QFN, 32 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8153-8-and-16-bit-avr-microcontroller-xmega-e-atxmega8e5-atxmega16e5-atxmega32e5_datasheet.pdf (Page 70)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
 0
-2
-2
+37
+33
 hodgkin
 TQFP-32_7x7mm_P0.8mm
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -48110,6 +48124,13 @@ solder jumper open
 0
 5
 3
+laser_ct
+LTR_301
+PhotoDiode, SFH225, RM2.54
+PhotoDiode SFH225 RM2.54
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
