@@ -446,4 +446,132 @@ Text Label 2050 3350 0    50   ~ 0
 PT15
 Text Label 2050 3500 0    50   ~ 0
 PT16
+$Comp
+L Regulator_Linear:L7805 U3
+U 1 1 5D77A12E
+P 1700 7050
+F 0 "U3" H 1700 7292 50  0000 C CNN
+F 1 "MIC29310-5.0WT" H 1700 7201 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 1725 6900 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1700 7000 50  0001 C CNN
+	1    1700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5D77BA9C
+P 2300 7250
+F 0 "C2" H 2418 7296 50  0000 L CNN
+F 1 "10uF" H 2418 7205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2338 7100 50  0001 C CNN
+F 3 "~" H 2300 7250 50  0001 C CNN
+	1    2300 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 7100 2300 7050
+Wire Wire Line
+	2300 7050 2000 7050
+$Comp
+L Device:CP C1
+U 1 1 5D7807CE
+P 1000 7250
+F 0 "C1" H 1118 7296 50  0000 L CNN
+F 1 "0.1uF" H 1118 7205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1038 7100 50  0001 C CNN
+F 3 "~" H 1000 7250 50  0001 C CNN
+	1    1000 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7050 1400 7050
+Wire Wire Line
+	1000 7100 1000 7050
+$Comp
+L power:GND #PWR0157
+U 1 1 5D78EE36
+P 1700 7500
+F 0 "#PWR0157" H 1700 7250 50  0001 C CNN
+F 1 "GND" H 1705 7327 50  0000 C CNN
+F 2 "" H 1700 7500 50  0001 C CNN
+F 3 "" H 1700 7500 50  0001 C CNN
+	1    1700 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7350 1700 7400
+Wire Wire Line
+	2300 7400 1700 7400
+Connection ~ 1700 7400
+Wire Wire Line
+	1700 7400 1700 7500
+Wire Wire Line
+	1000 7400 1700 7400
+Wire Wire Line
+	2650 7050 2300 7050
+Connection ~ 2300 7050
+$Comp
+L power:+5V #PWR0158
+U 1 1 5D7ABF35
+P 2650 7050
+F 0 "#PWR0158" H 2650 6900 50  0001 C CNN
+F 1 "+5V" H 2665 7223 50  0000 C CNN
+F 2 "" H 2650 7050 50  0001 C CNN
+F 3 "" H 2650 7050 50  0001 C CNN
+	1    2650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0159
+U 1 1 5D7ACBAD
+P 800 7050
+F 0 "#PWR0159" H 800 6950 50  0001 C CNN
+F 1 "+VDC" H 800 7325 50  0000 C CNN
+F 2 "" H 800 7050 50  0001 C CNN
+F 3 "" H 800 7050 50  0001 C CNN
+	1    800  7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7050 800  7050
+Connection ~ 1000 7050
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5D7B93FB
+P 3600 7150
+F 0 "J1" H 3657 7467 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 3657 7376 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3650 7110 50  0001 C CNN
+F 3 "~" H 3650 7110 50  0001 C CNN
+	1    3600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0160
+U 1 1 5D7BB775
+P 4000 7300
+F 0 "#PWR0160" H 4000 7050 50  0001 C CNN
+F 1 "GND" H 4005 7127 50  0000 C CNN
+F 2 "" H 4000 7300 50  0001 C CNN
+F 3 "" H 4000 7300 50  0001 C CNN
+	1    4000 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 7300 4000 7250
+Wire Wire Line
+	4000 7250 3900 7250
+$Comp
+L power:+VDC #PWR0161
+U 1 1 5D7C0C4F
+P 4150 7050
+F 0 "#PWR0161" H 4150 6950 50  0001 C CNN
+F 1 "+VDC" H 4150 7325 50  0000 C CNN
+F 2 "" H 4150 7050 50  0001 C CNN
+F 3 "" H 4150 7050 50  0001 C CNN
+	1    4150 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 7050 4150 7050
 $EndSCHEMATC
