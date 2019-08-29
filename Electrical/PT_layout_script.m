@@ -3,7 +3,7 @@ r = 76.25; # 101.25 mm from arc center.
 
 n = 24; # Number of phototransistors.
 
-theta = 3.5; # Degrees between each PT.
+theta = 5; # Degrees between each PT.
 
 c_x = 150;      # Coordinates of the center of the circle.
 c_y = 25;

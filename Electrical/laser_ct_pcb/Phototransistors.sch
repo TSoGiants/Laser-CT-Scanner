@@ -83,19 +83,6 @@ F 3 "~" H 1900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D6372D0
-P 2000 1400
-AR Path="/5D6372D0" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D6372D0" Ref="R4"  Part="1" 
-F 0 "R4" H 2068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 2068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2040 1390 50  0001 C CNN
-F 3 "~" H 2000 1400 50  0001 C CNN
-	1    2000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D6372D6
 P 2000 1100
@@ -138,19 +125,6 @@ F 1 "Q_Photo_NPN" H 3090 1805 50  0000 L CNN
 F 2 "laser_ct:LTR_301" H 3100 1950 50  0001 C CNN
 F 3 "~" H 2900 1850 50  0001 C CNN
 	1    2900 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D6372EB
-P 3000 1400
-AR Path="/5D6372EB" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D6372EB" Ref="R7"  Part="1" 
-F 0 "R7" H 3068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 3068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3040 1390 50  0001 C CNN
-F 3 "~" H 3000 1400 50  0001 C CNN
-	1    3000 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -199,19 +173,6 @@ F 3 "~" H 3900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D637306
-P 4000 1400
-AR Path="/5D637306" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D637306" Ref="R10"  Part="1" 
-F 0 "R10" H 4068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 4068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4040 1390 50  0001 C CNN
-F 3 "~" H 4000 1400 50  0001 C CNN
-	1    4000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D63730C
 P 4000 1100
@@ -254,19 +215,6 @@ F 1 "Q_Photo_NPN" H 5090 1805 50  0000 L CNN
 F 2 "laser_ct:LTR_301" H 5100 1950 50  0001 C CNN
 F 3 "~" H 4900 1850 50  0001 C CNN
 	1    4900 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D637321
-P 5000 1400
-AR Path="/5D637321" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D637321" Ref="R13"  Part="1" 
-F 0 "R13" H 5068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 5068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5040 1390 50  0001 C CNN
-F 3 "~" H 5000 1400 50  0001 C CNN
-	1    5000 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -315,19 +263,6 @@ F 3 "~" H 5900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D63733C
-P 6000 1400
-AR Path="/5D63733C" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D63733C" Ref="R15"  Part="1" 
-F 0 "R15" H 6068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 6068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6040 1390 50  0001 C CNN
-F 3 "~" H 6000 1400 50  0001 C CNN
-	1    6000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D637342
 P 6000 1100
@@ -370,19 +305,6 @@ F 1 "Q_Photo_NPN" H 7090 1805 50  0000 L CNN
 F 2 "laser_ct:LTR_301" H 7100 1950 50  0001 C CNN
 F 3 "~" H 6900 1850 50  0001 C CNN
 	1    6900 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D637357
-P 7000 1400
-AR Path="/5D637357" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D637357" Ref="R17"  Part="1" 
-F 0 "R17" H 7068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 7068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7040 1390 50  0001 C CNN
-F 3 "~" H 7000 1400 50  0001 C CNN
-	1    7000 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -431,19 +353,6 @@ F 3 "~" H 7900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D637372
-P 8000 1400
-AR Path="/5D637372" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D637372" Ref="R19"  Part="1" 
-F 0 "R19" H 8068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 8068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8040 1390 50  0001 C CNN
-F 3 "~" H 8000 1400 50  0001 C CNN
-	1    8000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D637378
 P 8000 1100
@@ -486,19 +395,6 @@ F 1 "Q_Photo_NPN" H 9090 1805 50  0000 L CNN
 F 2 "laser_ct:LTR_301" H 9100 1950 50  0001 C CNN
 F 3 "~" H 8900 1850 50  0001 C CNN
 	1    8900 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D63738D
-P 9000 1400
-AR Path="/5D63738D" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D63738D" Ref="R21"  Part="1" 
-F 0 "R21" H 9068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 9068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9040 1390 50  0001 C CNN
-F 3 "~" H 9000 1400 50  0001 C CNN
-	1    9000 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -547,19 +443,6 @@ F 3 "~" H 9900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D6373A8
-P 10000 1400
-AR Path="/5D6373A8" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D6373A8" Ref="R23"  Part="1" 
-F 0 "R23" H 10068 1446 50  0000 L CNN
-F 1 "1 kOhm" H 10068 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10040 1390 50  0001 C CNN
-F 3 "~" H 10000 1400 50  0001 C CNN
-	1    10000 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D6373AE
 P 10000 1100
@@ -602,19 +485,6 @@ F 1 "Q_Photo_NPN" H 1090 3855 50  0000 L CNN
 F 2 "laser_ct:LTR_301" H 1100 4000 50  0001 C CNN
 F 3 "~" H 900 3900 50  0001 C CNN
 	1    900  3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D6684E2
-P 1000 3450
-AR Path="/5D6684E2" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D6684E2" Ref="R2"  Part="1" 
-F 0 "R2" H 1068 3496 50  0000 L CNN
-F 1 "1 kOhm" H 1068 3405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1040 3440 50  0001 C CNN
-F 3 "~" H 1000 3450 50  0001 C CNN
-	1    1000 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -663,19 +533,6 @@ F 3 "~" H 1900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D6684FD
-P 2000 3450
-AR Path="/5D6684FD" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D6684FD" Ref="R5"  Part="1" 
-F 0 "R5" H 2068 3496 50  0000 L CNN
-F 1 "1 kOhm" H 2068 3405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2040 3440 50  0001 C CNN
-F 3 "~" H 2000 3450 50  0001 C CNN
-	1    2000 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D668503
 P 2000 3150
@@ -721,19 +578,6 @@ F 3 "~" H 2900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
-U 1 1 5D668518
-P 3000 3450
-AR Path="/5D668518" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D668518" Ref="R8"  Part="1" 
-F 0 "R8" H 3068 3496 50  0000 L CNN
-F 1 "1 kOhm" H 3068 3405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3040 3440 50  0001 C CNN
-F 3 "~" H 3000 3450 50  0001 C CNN
-	1    3000 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5D66851E
 P 3000 3150
@@ -776,19 +620,6 @@ F 1 "Q_Photo_NPN" H 4090 3855 50  0000 L CNN
 F 2 "laser_ct:LTR_301" H 4100 4000 50  0001 C CNN
 F 3 "~" H 3900 3900 50  0001 C CNN
 	1    3900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5D668533
-P 4000 3450
-AR Path="/5D668533" Ref="R?"  Part="1" 
-AR Path="/5D5DFB42/5D668533" Ref="R11"  Part="1" 
-F 0 "R11" H 4068 3496 50  0000 L CNN
-F 1 "1 kOhm" H 4068 3405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4040 3440 50  0001 C CNN
-F 3 "~" H 4000 3450 50  0001 C CNN
-	1    4000 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1413,33 +1244,33 @@ Connection ~ 1000 1600
 Wire Wire Line
 	1000 1600 1000 1650
 Text HLabel 2500 1600 2    50   Output ~ 0
-PT2
+PT4
 Wire Wire Line
 	2000 1600 2500 1600
 Connection ~ 2000 1600
 Wire Wire Line
 	2000 1600 2000 1550
 Text HLabel 3500 1600 2    50   Output ~ 0
-PT3
+PT7
 Wire Wire Line
 	3000 1600 3500 1600
 Connection ~ 3000 1600
 Wire Wire Line
 	3000 1600 3000 1550
 Text HLabel 4500 1600 2    50   Output ~ 0
-PT4
+PT10
 Wire Wire Line
 	4000 1600 4500 1600
 Connection ~ 4000 1600
 Wire Wire Line
 	4000 1600 4000 1550
 Text HLabel 5500 1600 2    50   Output ~ 0
-PT5
+PT13
 Connection ~ 5000 1600
 Wire Wire Line
 	5000 1600 5000 1550
 Text HLabel 6500 1600 2    50   Output ~ 0
-PT6
+PT15
 Wire Wire Line
 	5000 1600 5500 1600
 Wire Wire Line
@@ -1448,7 +1279,7 @@ Connection ~ 6000 1600
 Wire Wire Line
 	6000 1600 6000 1550
 Text HLabel 7500 1600 2    50   Output ~ 0
-PT7
+PT17
 Wire Wire Line
 	7000 1600 7500 1600
 Connection ~ 7000 1600
@@ -1460,36 +1291,36 @@ Connection ~ 8000 1600
 Wire Wire Line
 	8000 1600 8000 1550
 Text HLabel 8500 1600 2    50   Output ~ 0
-PT8
+PT19
 Text HLabel 9500 1600 2    50   Output ~ 0
-PT9
+PT21
 Wire Wire Line
 	9000 1600 9500 1600
 Connection ~ 9000 1600
 Wire Wire Line
 	9000 1600 9000 1550
 Text HLabel 10500 1600 2    50   Output ~ 0
-PT10
+PT23
 Wire Wire Line
 	10000 1600 10500 1600
 Connection ~ 10000 1600
 Wire Wire Line
 	10000 1600 10000 1550
 Text HLabel 1500 3650 2    50   Output ~ 0
-PT11
+PT2
 Wire Wire Line
 	1000 3650 1500 3650
 Connection ~ 1000 3650
 Wire Wire Line
 	1000 3650 1000 3600
 Text HLabel 2500 3650 2    50   Output ~ 0
-PT12
+PT5
 Text HLabel 3500 3650 2    50   Output ~ 0
-PT13
+PT8
 Text HLabel 4500 3650 2    50   Output ~ 0
-PT14
+PT11
 Text HLabel 5500 3650 2    50   Output ~ 0
-PT15
+PT14
 Text HLabel 6500 3650 2    50   Output ~ 0
 PT16
 Wire Wire Line
@@ -1518,59 +1349,228 @@ Connection ~ 2000 3650
 Wire Wire Line
 	2000 3650 2000 3600
 Text HLabel 7500 3650 2    50   Output ~ 0
-PT17
+PT18
 Wire Wire Line
 	7500 3650 7000 3650
 Connection ~ 7000 3650
 Wire Wire Line
 	7000 3650 7000 3600
 Text HLabel 8500 3650 2    50   Output ~ 0
-PT18
+PT20
 Connection ~ 8000 3650
 Wire Wire Line
 	8000 3650 8000 3600
 Wire Wire Line
 	8000 3650 8500 3650
 Text HLabel 9500 3650 2    50   Output ~ 0
-PT19
+PT22
 Wire Wire Line
 	9500 3650 9000 3650
 Connection ~ 9000 3650
 Wire Wire Line
 	9000 3650 9000 3600
 Text HLabel 10500 3650 2    50   Output ~ 0
-PT20
+PT24
 Wire Wire Line
 	10000 3650 10500 3650
 Connection ~ 10000 3650
 Wire Wire Line
 	10000 3650 10000 3600
 Text HLabel 1500 5600 2    50   Output ~ 0
-PT21
+PT3
 Wire Wire Line
 	1000 5600 1500 5600
 Connection ~ 1000 5600
 Wire Wire Line
 	1000 5600 1000 5550
 Text HLabel 2500 5600 2    50   Output ~ 0
-PT22
+PT6
 Wire Wire Line
 	2000 5600 2500 5600
 Connection ~ 2000 5600
 Wire Wire Line
 	2000 5600 2000 5550
 Text HLabel 3500 5600 2    50   Output ~ 0
-PT23
+PT9
 Wire Wire Line
 	3000 5600 3500 5600
 Connection ~ 3000 5600
 Wire Wire Line
 	3000 5600 3000 5550
 Text HLabel 4500 5600 2    50   Output ~ 0
-PT24
+PT12
 Wire Wire Line
 	4000 5600 4500 5600
 Connection ~ 4000 5600
 Wire Wire Line
 	4000 5600 4000 5550
+$Comp
+L Device:R_US R?
+U 1 1 5D668533
+P 4000 3450
+AR Path="/5D668533" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D668533" Ref="R11"  Part="1" 
+F 0 "R11" H 4068 3496 50  0000 L CNN
+F 1 "1 kOhm" H 4068 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4040 3440 50  0001 C CNN
+F 3 "~" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D668518
+P 3000 3450
+AR Path="/5D668518" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D668518" Ref="R8"  Part="1" 
+F 0 "R8" H 3068 3496 50  0000 L CNN
+F 1 "1 kOhm" H 3068 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3040 3440 50  0001 C CNN
+F 3 "~" H 3000 3450 50  0001 C CNN
+	1    3000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D6684FD
+P 2000 3450
+AR Path="/5D6684FD" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D6684FD" Ref="R5"  Part="1" 
+F 0 "R5" H 2068 3496 50  0000 L CNN
+F 1 "1 kOhm" H 2068 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2040 3440 50  0001 C CNN
+F 3 "~" H 2000 3450 50  0001 C CNN
+	1    2000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D6684E2
+P 1000 3450
+AR Path="/5D6684E2" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D6684E2" Ref="R2"  Part="1" 
+F 0 "R2" H 1068 3496 50  0000 L CNN
+F 1 "1 kOhm" H 1068 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1040 3440 50  0001 C CNN
+F 3 "~" H 1000 3450 50  0001 C CNN
+	1    1000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D6373A8
+P 10000 1400
+AR Path="/5D6373A8" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D6373A8" Ref="R23"  Part="1" 
+F 0 "R23" H 10068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 10068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 10040 1390 50  0001 C CNN
+F 3 "~" H 10000 1400 50  0001 C CNN
+	1    10000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D63738D
+P 9000 1400
+AR Path="/5D63738D" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D63738D" Ref="R21"  Part="1" 
+F 0 "R21" H 9068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 9068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 9040 1390 50  0001 C CNN
+F 3 "~" H 9000 1400 50  0001 C CNN
+	1    9000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D637372
+P 8000 1400
+AR Path="/5D637372" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D637372" Ref="R19"  Part="1" 
+F 0 "R19" H 8068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 8068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8040 1390 50  0001 C CNN
+F 3 "~" H 8000 1400 50  0001 C CNN
+	1    8000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D637357
+P 7000 1400
+AR Path="/5D637357" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D637357" Ref="R17"  Part="1" 
+F 0 "R17" H 7068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 7068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7040 1390 50  0001 C CNN
+F 3 "~" H 7000 1400 50  0001 C CNN
+	1    7000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D63733C
+P 6000 1400
+AR Path="/5D63733C" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D63733C" Ref="R15"  Part="1" 
+F 0 "R15" H 6068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 6068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6040 1390 50  0001 C CNN
+F 3 "~" H 6000 1400 50  0001 C CNN
+	1    6000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D637321
+P 5000 1400
+AR Path="/5D637321" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D637321" Ref="R13"  Part="1" 
+F 0 "R13" H 5068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 5068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5040 1390 50  0001 C CNN
+F 3 "~" H 5000 1400 50  0001 C CNN
+	1    5000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D637306
+P 4000 1400
+AR Path="/5D637306" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D637306" Ref="R10"  Part="1" 
+F 0 "R10" H 4068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 4068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4040 1390 50  0001 C CNN
+F 3 "~" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D6372EB
+P 3000 1400
+AR Path="/5D6372EB" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D6372EB" Ref="R7"  Part="1" 
+F 0 "R7" H 3068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 3068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3040 1390 50  0001 C CNN
+F 3 "~" H 3000 1400 50  0001 C CNN
+	1    3000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5D6372D0
+P 2000 1400
+AR Path="/5D6372D0" Ref="R?"  Part="1" 
+AR Path="/5D5DFB42/5D6372D0" Ref="R4"  Part="1" 
+F 0 "R4" H 2068 1446 50  0000 L CNN
+F 1 "1 kOhm" H 2068 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2040 1390 50  0001 C CNN
+F 3 "~" H 2000 1400 50  0001 C CNN
+	1    2000 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
