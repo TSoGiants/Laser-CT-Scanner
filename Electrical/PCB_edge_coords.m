@@ -1,9 +1,9 @@
 ### Constants ###
-r = 76.25; # 76.25 mm from arc center.
+r = 75; # 75 mm from arc center.
 
-n = 24; # Number of phototransistors.
+n = 2; # Number of phototransistors.
 
-theta = 5; # Degrees between each PT.
+theta = 122; # Degrees between each PT.
 
 c_x = 150;      # Coordinates of the center of the circle.
 c_y = 25;

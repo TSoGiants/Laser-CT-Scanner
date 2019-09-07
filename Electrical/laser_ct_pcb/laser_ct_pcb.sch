@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -447,253 +447,6 @@ Text Label 2600 2900 0    50   ~ 0
 PT15
 Text Label 2600 3050 0    50   ~ 0
 PT16
-$Comp
-L Regulator_Linear:L7805 U3
-U 1 1 5D77A12E
-P 1700 7000
-F 0 "U3" H 1700 7242 50  0000 C CNN
-F 1 "MIC29310-5.0WT" H 1700 7151 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 1725 6850 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1700 6950 50  0001 C CNN
-	1    1700 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C2
-U 1 1 5D77BA9C
-P 2300 7200
-F 0 "C2" H 2418 7246 50  0000 L CNN
-F 1 "10uF" H 2418 7155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2338 7050 50  0001 C CNN
-F 3 "~" H 2300 7200 50  0001 C CNN
-	1    2300 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 7050 2300 7000
-Wire Wire Line
-	2300 7000 2000 7000
-$Comp
-L Device:CP C1
-U 1 1 5D7807CE
-P 1000 7200
-F 0 "C1" H 1118 7246 50  0000 L CNN
-F 1 "0.1uF" H 1118 7155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1038 7050 50  0001 C CNN
-F 3 "~" H 1000 7200 50  0001 C CNN
-	1    1000 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 7000 1400 7000
-Wire Wire Line
-	1000 7050 1000 7000
-$Comp
-L power:GND #PWR0157
-U 1 1 5D78EE36
-P 1700 7450
-F 0 "#PWR0157" H 1700 7200 50  0001 C CNN
-F 1 "GND" H 1705 7277 50  0000 C CNN
-F 2 "" H 1700 7450 50  0001 C CNN
-F 3 "" H 1700 7450 50  0001 C CNN
-	1    1700 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 7300 1700 7350
-Wire Wire Line
-	2300 7350 1700 7350
-Connection ~ 1700 7350
-Wire Wire Line
-	1700 7350 1700 7450
-Wire Wire Line
-	1000 7350 1700 7350
-Wire Wire Line
-	2650 7000 2300 7000
-Connection ~ 2300 7000
-$Comp
-L power:+5V #PWR0158
-U 1 1 5D7ABF35
-P 2650 7000
-F 0 "#PWR0158" H 2650 6850 50  0001 C CNN
-F 1 "+5V" H 2665 7173 50  0000 C CNN
-F 2 "" H 2650 7000 50  0001 C CNN
-F 3 "" H 2650 7000 50  0001 C CNN
-	1    2650 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+VDC #PWR0159
-U 1 1 5D7ACBAD
-P 800 7000
-F 0 "#PWR0159" H 800 6900 50  0001 C CNN
-F 1 "+VDC" H 800 7275 50  0000 C CNN
-F 2 "" H 800 7000 50  0001 C CNN
-F 3 "" H 800 7000 50  0001 C CNN
-	1    800  7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 7000 800  7000
-Connection ~ 1000 7000
-$Comp
-L Connector:Barrel_Jack_Switch J1
-U 1 1 5D7B93FB
-P 1500 6000
-F 0 "J1" H 1557 6317 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 1557 6226 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1550 5960 50  0001 C CNN
-F 3 "~" H 1550 5960 50  0001 C CNN
-	1    1500 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0160
-U 1 1 5D7BB775
-P 1900 6150
-F 0 "#PWR0160" H 1900 5900 50  0001 C CNN
-F 1 "GND" H 1905 5977 50  0000 C CNN
-F 2 "" H 1900 6150 50  0001 C CNN
-F 3 "" H 1900 6150 50  0001 C CNN
-	1    1900 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 6150 1900 6100
-Wire Wire Line
-	1900 6100 1800 6100
-$Comp
-L power:+VDC #PWR0161
-U 1 1 5D7C0C4F
-P 2050 5900
-F 0 "#PWR0161" H 2050 5800 50  0001 C CNN
-F 1 "+VDC" H 2050 6175 50  0000 C CNN
-F 2 "" H 2050 5900 50  0001 C CNN
-F 3 "" H 2050 5900 50  0001 C CNN
-	1    2050 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 5900 2050 5900
-$Comp
-L laser_ct:28BYJ-48 M1
-U 1 1 5D73BE8D
-P 5750 6850
-F 0 "M1" H 5938 6974 50  0000 L CNN
-F 1 "28BYJ-48" H 5938 6883 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 5760 6840 50  0001 C CNN
-F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 5760 6840 50  0001 C CNN
-	1    5750 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_Array:ULN2003A U4
-U 1 1 5D743839
-P 4350 6900
-F 0 "U4" H 4350 7567 50  0000 C CNN
-F 1 "ULN2003A" H 4350 7476 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 4400 6350 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 4450 6700 50  0001 C CNN
-	1    4350 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0162
-U 1 1 5D7488A1
-P 4350 7500
-F 0 "#PWR0162" H 4350 7250 50  0001 C CNN
-F 1 "GND" H 4355 7327 50  0000 C CNN
-F 2 "" H 4350 7500 50  0001 C CNN
-F 3 "" H 4350 7500 50  0001 C CNN
-	1    4350 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 6550 5650 6350
-Wire Wire Line
-	5650 6350 5000 6350
-Wire Wire Line
-	5000 6350 5000 6700
-Wire Wire Line
-	5000 6700 4750 6700
-Wire Wire Line
-	5450 6750 5100 6750
-Wire Wire Line
-	5100 6750 5100 6800
-Wire Wire Line
-	5100 6800 4750 6800
-Wire Wire Line
-	5850 6550 5850 6350
-Wire Wire Line
-	5850 6350 6450 6350
-Wire Wire Line
-	6450 6350 6450 7250
-Wire Wire Line
-	6450 7250 5100 7250
-Wire Wire Line
-	5100 7250 5100 6900
-Wire Wire Line
-	5100 6900 4750 6900
-Wire Wire Line
-	5450 6950 5300 6950
-Wire Wire Line
-	5300 6950 5300 7000
-Wire Wire Line
-	5300 7000 5150 7000
-Wire Wire Line
-	5150 7000 5150 6950
-Wire Wire Line
-	5150 6950 5050 6950
-Wire Wire Line
-	5050 6950 5050 7000
-Wire Wire Line
-	5050 7000 4750 7000
-$Comp
-L power:+5V #PWR0163
-U 1 1 5D788392
-P 5550 6200
-F 0 "#PWR0163" H 5550 6050 50  0001 C CNN
-F 1 "+5V" H 5565 6373 50  0000 C CNN
-F 2 "" H 5550 6200 50  0001 C CNN
-F 3 "" H 5550 6200 50  0001 C CNN
-	1    5550 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 6400 5500 6400
-Wire Wire Line
-	5550 6400 5550 6550
-Wire Wire Line
-	4900 6250 4900 6500
-Wire Wire Line
-	4900 6500 4750 6500
-Wire Wire Line
-	5550 6200 5550 6250
-Wire Wire Line
-	4900 6250 5550 6250
-Wire Wire Line
-	5500 6400 5500 6300
-Wire Wire Line
-	5500 6300 5550 6300
-Wire Wire Line
-	5550 6300 5550 6250
-Connection ~ 5550 6250
-Wire Wire Line
-	3950 6700 3850 6700
-Wire Wire Line
-	3950 6800 3700 6800
-Wire Wire Line
-	3950 6900 3550 6900
-Wire Wire Line
-	3950 7000 3400 7000
-Text Label 3850 6700 0    50   ~ 0
-M1
-Text Label 3700 6800 0    50   ~ 0
-M2
-Text Label 3550 6900 0    50   ~ 0
-M3
-Text Label 3400 7000 0    50   ~ 0
-M4
 Wire Wire Line
 	7600 2350 7400 2350
 Wire Wire Line
@@ -710,4 +463,285 @@ Text Label 7400 2150 0    50   ~ 0
 M3
 Text Label 7500 2050 0    50   ~ 0
 M4
+Text Label 3000 7000 0    50   ~ 0
+M4
+Text Label 2750 6900 0    50   ~ 0
+M3
+Text Label 3000 6800 0    50   ~ 0
+M2
+Text Label 2750 6700 0    50   ~ 0
+M1
+Wire Wire Line
+	3150 7000 3000 7000
+Wire Wire Line
+	3150 6900 2750 6900
+Wire Wire Line
+	3150 6800 3000 6800
+Wire Wire Line
+	3150 6700 2750 6700
+Connection ~ 4750 6250
+Wire Wire Line
+	4750 6300 4750 6250
+Wire Wire Line
+	4700 6300 4750 6300
+Wire Wire Line
+	4700 6400 4700 6300
+Wire Wire Line
+	4100 6250 4750 6250
+Wire Wire Line
+	4750 6200 4750 6250
+Wire Wire Line
+	4100 6500 3950 6500
+Wire Wire Line
+	4100 6250 4100 6500
+Wire Wire Line
+	4750 6400 4750 6550
+Wire Wire Line
+	4750 6400 4700 6400
+$Comp
+L power:+5V #PWR0163
+U 1 1 5D788392
+P 4750 6200
+F 0 "#PWR0163" H 4750 6050 50  0001 C CNN
+F 1 "+5V" H 4765 6373 50  0000 C CNN
+F 2 "" H 4750 6200 50  0001 C CNN
+F 3 "" H 4750 6200 50  0001 C CNN
+	1    4750 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 7000 3950 7000
+Wire Wire Line
+	4250 6950 4250 7000
+Wire Wire Line
+	4350 6950 4250 6950
+Wire Wire Line
+	4350 7000 4350 6950
+Wire Wire Line
+	4500 7000 4350 7000
+Wire Wire Line
+	4500 6950 4500 7000
+Wire Wire Line
+	4650 6950 4500 6950
+Wire Wire Line
+	4300 6900 3950 6900
+Wire Wire Line
+	4300 7250 4300 6900
+Wire Wire Line
+	5650 7250 4300 7250
+Wire Wire Line
+	5650 6350 5650 7250
+Wire Wire Line
+	5050 6350 5650 6350
+Wire Wire Line
+	5050 6550 5050 6350
+Wire Wire Line
+	4300 6800 3950 6800
+Wire Wire Line
+	4300 6750 4300 6800
+Wire Wire Line
+	4650 6750 4300 6750
+Wire Wire Line
+	4200 6700 3950 6700
+Wire Wire Line
+	4200 6350 4200 6700
+Wire Wire Line
+	4850 6350 4200 6350
+Wire Wire Line
+	4850 6550 4850 6350
+$Comp
+L power:GND #PWR0162
+U 1 1 5D7488A1
+P 3550 7500
+F 0 "#PWR0162" H 3550 7250 50  0001 C CNN
+F 1 "GND" H 3555 7327 50  0000 C CNN
+F 2 "" H 3550 7500 50  0001 C CNN
+F 3 "" H 3550 7500 50  0001 C CNN
+	1    3550 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_Array:ULN2003A U4
+U 1 1 5D743839
+P 3550 6900
+F 0 "U4" H 3550 7567 50  0000 C CNN
+F 1 "ULN2003A" H 3550 7476 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3600 6350 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 3650 6700 50  0001 C CNN
+	1    3550 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L laser_ct:28BYJ-48 M1
+U 1 1 5D73BE8D
+P 4950 6850
+F 0 "M1" H 5138 6974 50  0000 L CNN
+F 1 "28BYJ-48" H 5138 6883 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 4960 6840 50  0001 C CNN
+F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 4960 6840 50  0001 C CNN
+	1    4950 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 850  7000
+Wire Wire Line
+	850  7000 650  7000
+$Comp
+L power:+VDC #PWR0159
+U 1 1 5D7ACBAD
+P 650 7000
+F 0 "#PWR0159" H 650 6900 50  0001 C CNN
+F 1 "+VDC" H 650 7275 50  0000 C CNN
+F 2 "" H 650 7000 50  0001 C CNN
+F 3 "" H 650 7000 50  0001 C CNN
+	1    650  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0158
+U 1 1 5D7ABF35
+P 2350 7000
+F 0 "#PWR0158" H 2350 6850 50  0001 C CNN
+F 1 "+5V" H 2365 7173 50  0000 C CNN
+F 2 "" H 2350 7000 50  0001 C CNN
+F 3 "" H 2350 7000 50  0001 C CNN
+	1    2350 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 7000
+Wire Wire Line
+	2350 7000 2150 7000
+Wire Wire Line
+	850  7350 1550 7350
+Wire Wire Line
+	1550 7350 1550 7450
+Connection ~ 1550 7350
+Wire Wire Line
+	2150 7350 1550 7350
+Wire Wire Line
+	1550 7300 1550 7350
+$Comp
+L power:GND #PWR0157
+U 1 1 5D78EE36
+P 1550 7450
+F 0 "#PWR0157" H 1550 7200 50  0001 C CNN
+F 1 "GND" H 1555 7277 50  0000 C CNN
+F 2 "" H 1550 7450 50  0001 C CNN
+F 3 "" H 1550 7450 50  0001 C CNN
+	1    1550 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  7050 850  7000
+Wire Wire Line
+	850  7000 1250 7000
+$Comp
+L Device:CP C1
+U 1 1 5D7807CE
+P 850 7200
+F 0 "C1" H 968 7246 50  0000 L CNN
+F 1 "0.1uF" H 968 7155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 888 7050 50  0001 C CNN
+F 3 "~" H 850 7200 50  0001 C CNN
+	1    850  7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 7000 1850 7000
+Wire Wire Line
+	2150 7050 2150 7000
+$Comp
+L Device:CP C2
+U 1 1 5D77BA9C
+P 2150 7200
+F 0 "C2" H 2268 7246 50  0000 L CNN
+F 1 "10uF" H 2268 7155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2188 7050 50  0001 C CNN
+F 3 "~" H 2150 7200 50  0001 C CNN
+	1    2150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U3
+U 1 1 5D77A12E
+P 1550 7000
+F 0 "U3" H 1550 7242 50  0000 C CNN
+F 1 "MIC29310-5.0WT" H 1550 7151 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 1575 6850 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1550 6950 50  0001 C CNN
+	1    1550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5950 1550 5950
+$Comp
+L power:+VDC #PWR0161
+U 1 1 5D7C0C4F
+P 1550 5950
+F 0 "#PWR0161" H 1550 5850 50  0001 C CNN
+F 1 "+VDC" H 1550 6225 50  0000 C CNN
+F 2 "" H 1550 5950 50  0001 C CNN
+F 3 "" H 1550 5950 50  0001 C CNN
+	1    1550 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6150 1300 6150
+Wire Wire Line
+	1400 6200 1400 6150
+$Comp
+L power:GND #PWR0160
+U 1 1 5D7BB775
+P 1400 6200
+F 0 "#PWR0160" H 1400 5950 50  0001 C CNN
+F 1 "GND" H 1405 6027 50  0000 C CNN
+F 2 "" H 1400 6200 50  0001 C CNN
+F 3 "" H 1400 6200 50  0001 C CNN
+	1    1400 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5D7B93FB
+P 1000 6050
+F 0 "J1" H 1057 6367 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1057 6276 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1050 6010 50  0001 C CNN
+F 3 "~" H 1050 6010 50  0001 C CNN
+	1    1000 6050
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6200 6350 550  950 
+U 5D7743B7
+F0 "LEDs" 50
+F1 "LEDs.sch" 50
+F2 "LED1" O L 6200 6500 50 
+F3 "LED2" O L 6200 6700 50 
+F4 "LED3" O L 6200 6900 50 
+F5 "LED4" O L 6200 7100 50 
+$EndSheet
+Wire Wire Line
+	6200 6500 6000 6500
+Text Label 4100 6700 2    50   ~ 0
+A
+Text Label 4100 6800 2    50   ~ 0
+B
+Text Label 4100 6900 2    50   ~ 0
+C
+Text Label 4100 7000 2    50   ~ 0
+D
+Text Label 6000 6500 2    50   ~ 0
+A
+Wire Wire Line
+	6200 6700 6000 6700
+Wire Wire Line
+	6200 6900 6000 6900
+Wire Wire Line
+	6200 7100 6000 7100
+Text Label 6000 6700 2    50   ~ 0
+B
+Text Label 6000 6900 2    50   ~ 0
+C
+Text Label 6000 7100 2    50   ~ 0
+D
 $EndSCHEMATC
