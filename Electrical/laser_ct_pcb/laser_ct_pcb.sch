@@ -20,7 +20,7 @@ U 1 1 5D4C01E1
 P 8100 2150
 F 0 "A1" H 8100 1061 50  0000 C CNN
 F 1 "Arduino_Nano_v3.x" H 8100 970 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 8250 1200 50  0001 L CNN
+F 2 "laser_ct:Arduino_Nano" H 8250 1200 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 8100 1150 50  0001 C CNN
 	1    8100 2150
 	1    0    0    -1  
@@ -95,16 +95,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D55D0A0
-P 8300 950
-F 0 "#PWR0101" H 8300 800 50  0001 C CNN
-F 1 "+5V" H 8315 1123 50  0000 C CNN
-F 2 "" H 8300 950 50  0001 C CNN
-F 3 "" H 8300 950 50  0001 C CNN
-	1    8300 950 
+P 8000 950
+F 0 "#PWR0101" H 8000 800 50  0001 C CNN
+F 1 "+5V" H 8015 1123 50  0000 C CNN
+F 2 "" H 8000 950 50  0001 C CNN
+F 3 "" H 8000 950 50  0001 C CNN
+	1    8000 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 1150 8300 950 
+	8000 1150 8000 950 
 $Comp
 L power:+5V #PWR0102
 U 1 1 5D55DECC
@@ -577,7 +577,7 @@ U 1 1 5D73BE8D
 P 4950 6850
 F 0 "M1" H 5138 6974 50  0000 L CNN
 F 1 "28BYJ-48" H 5138 6883 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 4960 6840 50  0001 C CNN
+F 2 "laser_ct:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 4960 6840 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 4960 6840 50  0001 C CNN
 	1    4950 6850
 	1    0    0    -1  
@@ -705,7 +705,7 @@ U 1 1 5D7B93FB
 P 1000 6050
 F 0 "J1" H 1057 6367 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 1057 6276 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1050 6010 50  0001 C CNN
+F 2 "laser_ct:BarrelJack_Horizontal" H 1050 6010 50  0001 C CNN
 F 3 "~" H 1050 6010 50  0001 C CNN
 	1    1000 6050
 	1    0    0    -1  
@@ -744,4 +744,9 @@ Text Label 6000 6900 2    50   ~ 0
 C
 Text Label 6000 7100 2    50   ~ 0
 D
+Wire Wire Line
+	1300 6050 1400 6050
+Wire Wire Line
+	1400 6050 1400 6150
+Connection ~ 1400 6150
 $EndSCHEMATC
