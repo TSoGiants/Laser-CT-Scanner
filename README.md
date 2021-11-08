@@ -37,4 +37,4 @@ For any active TSoG.tv students who would like to contribute to this project, pl
 
 This project includes mechanical CAD that we will be completing in Alibre Design. You can download a 30 day trial of this software [here](https://www.alibre.com/get-a-trial-of-alibre-design-expert/). Students active on this project should discuss longer-term licensing options with Dr. Foland.
 
-This project also includes electricad CAD that we will be completing in KiCAD. You can download this open source software [here](http://www.kicad-pcb.org/).
+This project also includes electricad CAD that we will be completing in KiCAD. You can download this open source software [here](http://www.kicad.org/).
